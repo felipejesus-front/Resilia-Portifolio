@@ -2454,11 +2454,16 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
 }
-
+.linksite:hover{
+  background-color: var(--warning);
+  border-radius: 20%;
+  transition: opacity ease-in-out 0.25s
+  
+}
 .btn-primary {
   color: #fed136;
-  background: rgb(119,6,199);
-  background: linear-gradient(180deg, rgba(119,6,199,1) 50%, rgba(187,6,199,1) 100%);
+  background:rgba(0, 0, 0, 0.83);
+  
   border-color: #fed136;
 }
 .btn-primary:hover {
@@ -5893,7 +5898,7 @@ a.close.disabled {
   text-align: center;
   opacity: 0.5;
   transition: opacity 0.15s ease;
-  background: linear-gradient(113deg, rgba(6,195,199,1) 0%, rgba(132,6,199,1) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(199,197,6,1) 100%)
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
@@ -10026,7 +10031,7 @@ img::-moz-selection {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(187,6,199,0.6895133053221288);
+  background-color: #0000007a
 
 }
 #mainNav .navbar-toggler {
@@ -10034,8 +10039,8 @@ img::-moz-selection {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.75rem;
   color: #fed136;
-  background: rgb(119,6,199);
-  background: linear-gradient(180deg, rgba(119,6,199,1) 50%, rgba(187,6,199,1) 100%);
+  background: #000000;
+  
   border-color: #fed136;
 }
 #mainNav .navbar-brand {
@@ -10078,7 +10083,7 @@ img::-moz-selection {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background: rgb(119,6,199);
-    background: linear-gradient(180deg, rgba(119,6,199,1) 0%, rgba(187,6,199,0.6082808123249299) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(199,197,6,0.5214460784313726) 100%)
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10099,7 +10104,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.png");
+  background-image: url("../assets/img/header-bg.png") ;
+  
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10154,7 +10160,7 @@ header.masthead .masthead-heading {
   width: 100%;
   height: 100%;
   background: rgb(119,6,199);
-  background: linear-gradient(180deg, rgba(119,6,199,0.6671043417366946) 0%, rgba(187,6,199,0.6082808123249299) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.6222864145658263) 0%, rgba(199,197,6,0.6727065826330532) 100%);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -10413,19 +10419,19 @@ header.masthead .masthead-heading {
 .team-member3 img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(150, 92, 245, 0.62);
+  border: 0.5rem solid  rgba(249, 255, 0, 0.67)
 }
 
 .team-member2 img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(255, 141, 0, 0.52);
+  border: 0.5rem solid rgba(249, 255, 0, 0.67);
 }
 
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid #3cff6959;
+  border: 0.5rem solid #00000087;
 }
 
 .team-member4 img {
